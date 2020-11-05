@@ -141,4 +141,4 @@ async def on_ready():
     print("logged in.")
 
 TOKEN = os.environ.get('BOT_TOKEN')
-Bot.run(os.environ.get("BOT_TOKEN"))
+
