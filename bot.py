@@ -140,4 +140,4 @@ async def status(ctx):
 async def on_ready():
     print("logged in.")
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('BOT_TOKEN')
